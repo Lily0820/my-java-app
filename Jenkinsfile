@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-creds') // Jenkins credential ID
-        IMAGE_NAME = 'lily0820/my-java-app' // Your DockerHub repo name
+        IMAGE_NAME = 'likitha0820/my-java-app' // Your DockerHub repo name
     }
 
     tools {
